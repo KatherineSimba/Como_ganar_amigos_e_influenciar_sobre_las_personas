@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Diseño de Interfaz</title>
+
+    <style type="text/css">
+        .titulo {
+            text-align: center;
+        }
+
+        .left {
+            width:30%;
+            float:left;
+            text-align: right;
+        }
+
+        .right{
+            width:10%;
+            margin-left: 30px;
+            float: left;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="titulo">Ejemplo de formulario</h1>
+
+    <form action="." oninput="range_control_value.value = range_control.valueAsNumber">
+    
+    <p>
+        <label class="left">Nombre</label> <input class="right" type="text" name="nombre" autofocus/>
+    </p>
+    
+    </br>
+        
+    <p>
+        <label class="left">Apellido</label> <input class="right" type="text" name="apellido" autofocus/>
+    </p>
+
+    </br>
+
+    <p>
+        <label class="left">Número de cédula </label> <input class="right" type="text" name="cédula" autofocus/>
+    </p>
+
+    </br>
+
+    <p>
+        <label class="left">Fecha de nacimiento</label> <input class="right" type="date" name="date_control" />
+    </p>
+             
+    </br>
+        
+    <p>
+        <label class="left">Dirección</label> <input class="right" type="text" name="dire" autofocus/>
+    </p>
+
+    </br>
+
+    <p>
+        <label class="left">País</label> <input class="right" type="text" name="país" autofocus/>
+    </p>
+        
+    </br>
+
+    <p>
+        <label class="left">Teléfono</label> <input class="right" type="text" name="teléfono" autofocus/>
+    </p>        
+        
+    </br>
+
+    <p>
+        <label class="left">Estado civil</label> <input class="right" type="text" name="estado civil" autofocus/>
+    </p>
+            
+    </br>
+    
+    <p>
+        <label class="left">Color favorito</label> <input class="right" type="color" name="color_control"/>
+    </p>
+    
+    </br>
+    
+    <p>
+        <label class="left">Número Postal/Codigo Postal/Zip</label> <input class="right" type="text" name="numero" autofocus/>
+    </p>
+    
+    </br>
+
+    <p>
+        <label class="left">-</label> <input class="right" type="submit" value="Guardar" />
+    </p>
+
+</body>
+</html>
